@@ -77,6 +77,8 @@ RUN yum -y install \
            python-rhsm \
            rootfiles \
            yum-utils \
+           awscli \
+           ansible \
            && yum clean all
 
 # Set default command
